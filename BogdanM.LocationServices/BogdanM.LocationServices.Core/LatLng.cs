@@ -1,6 +1,6 @@
 ﻿namespace BogdanM.LocationServices.Core
 {
-    public struct LatLng
+    public class LatLng
     {
         public readonly decimal Lat;
         public readonly decimal Lng;
