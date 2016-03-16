@@ -41,9 +41,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Address.cs" />
+    <Compile Include="BaseLocationService.cs" />
     <Compile Include="ILocationService.cs" />
+    <Compile Include="Infrastructure\Extensions.cs" />
     <Compile Include="LatLng.cs" />
-    <Compile Include="LocationServiceArgs.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

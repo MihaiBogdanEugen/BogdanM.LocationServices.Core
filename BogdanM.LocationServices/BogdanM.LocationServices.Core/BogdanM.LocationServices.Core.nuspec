@@ -5,7 +5,7 @@
 		<title>BogdanM.LocationServices.Core</title>
 		<authors>Mihai Bogdan Eugen</authors>
 		<owners>Mihai Bogdan Eugen</owners>
-		<version>1.0.1</version>	
+		<version>1.0.2</version>	
 		<licenseUrl>https://raw.githubusercontent.com/MihaiBogdanEugen/BogdanM.LocationServices.Core/master/LICENSE</licenseUrl>
 		<projectUrl>https://github.com/MihaiBogdanEugen/BogdanM.LocationServices.Core</projectUrl>
 		<tags>Location geocoding reverse geocoding distance route</tags>

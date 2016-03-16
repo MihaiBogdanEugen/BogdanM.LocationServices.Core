@@ -7,7 +7,7 @@ namespace BogdanM.LocationServices.Core
     /// Contract for basic location services operations like geocoding, reverse geocoding, routing and distance.
     /// Implements IDisposable only for allowing usage with Owin IdentityFactoryOptions creation.
     /// </summary>
-    public interface ILocationService : IDisposable
+    public interface ILocationService
     {
         /// <summary>
         /// Converts a human-readable address into geographic coordinates.
@@ -60,5 +60,21 @@ namespace BogdanM.LocationServices.Core
         /// <param name="to">The second geographic point as a <see cref="LatLng"/> structure.</param>
         /// <returns>An ordered array of <see cref="LatLng"/> structures represeting the route.</returns>
         LatLng[] GetRoute(LatLng @from, LatLng to);
+        
+        /// <summary>
+        /// Async operation for getting the route between two geographic points.
+        /// </summary>
+        /// <param name="from">The first geographic point as a <see cref="LatLng"/> structure.</param>
+        /// <param name="to">The second geographic point as a <see cref="LatLng"/> structure.</param>
+        /// <returns>An ordered array of <see cref="LatLng"/> structures represeting the route in the result of a <see cref="Task"/> object.</returns>
+        Task<LatLng[]> GetRouteAsync(LatLng @from, LatLng to);
+
+        /// <summary>
+        /// Returns true if the given point is inside the given geofence and false otherwise.
+        /// </summary>
+        /// <param name="point">The input latitude and longitude as a <see cref="LatLng"/> structure.</param>
+        /// <param name="geoFence">The geofence represented by an array of <see cref="LatLng"/> structurs.</param>
+        /// <returns>True of false regarding if the given point is inside the given geofence.</returns>
+        bool IsInside(LatLng point, LatLng[] geoFence);
     }
 }
