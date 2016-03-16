@@ -2,7 +2,7 @@
 <package >
 	<metadata>
 		<id>BogdanM.LocationServices.Core</id>
-		<title>StackExchange.Exceptional.PostgreSql</title>
+		<title>BogdanM.LocationServices.Core</title>
 		<authors>Mihai Bogdan Eugen</authors>
 		<owners>Mihai Bogdan Eugen</owners>
 		<version>1.0.0</version>	
