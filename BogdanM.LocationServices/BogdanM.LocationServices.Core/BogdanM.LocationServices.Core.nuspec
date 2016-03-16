@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package >
+	<metadata>
+		<id>BogdanM.LocationServices.Core</id>
+		<title>StackExchange.Exceptional.PostgreSql</title>
+		<authors>Mihai Bogdan Eugen</authors>
+		<owners>Mihai Bogdan Eugen</owners>
+		<version>1.0.0</version>	
+		<licenseUrl>https://raw.githubusercontent.com/MihaiBogdanEugen/BogdanM.LocationServices.Core/master/LICENSE</licenseUrl>
+		<projectUrl>https://github.com/MihaiBogdanEugen/BogdanM.LocationServices.Core</projectUrl>
+		<tags>Location geocoding reverse geocoding distance route</tags>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<language>en-US</language>
+		<description>Core lib for basic location services operations like geocoding, reverse geocoding, routing and distance.</description>
+		<summary>Core lib for basic location services operations like geocoding, reverse geocoding, routing and distance.</summary>
+		<copyright>Copyright &#169; 2016 Mihai Bogdan Eugen</copyright>
+	</metadata>
+	<files>
+		<file src="bin\Release\BogdanM.LocationServices.Core.*" target="lib" />
+	</files> 	
+</package>
