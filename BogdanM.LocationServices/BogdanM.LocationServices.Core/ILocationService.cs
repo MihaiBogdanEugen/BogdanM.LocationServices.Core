@@ -60,13 +60,5 @@ namespace BogdanM.LocationServices.Core
         /// <param name="to">The second geographic point as a <see cref="LatLng"/> structure.</param>
         /// <returns>An ordered array of <see cref="LatLng"/> structures represeting the route.</returns>
         LatLng[] GetRoute(LatLng @from, LatLng to);
-
-        /// <summary>
-        /// Async operation for getting the route between two geographic points.
-        /// </summary>
-        /// <param name="from">The first geographic point as a <see cref="LatLng"/> structure.</param>
-        /// <param name="to">The second geographic point as a <see cref="LatLng"/> structure.</param>
-        /// <returns>An ordered array of <see cref="LatLng"/> structures represeting the route in the result of a <see cref="Task"/> object.</returns>
-        Task<LatLng[]> GetRouteAsync(LatLng @from, LatLng to);
     }
 }
